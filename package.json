@@ -1,7 +1,7 @@
 {
     "name": "nodebb-theme-fit",
-    "version": "0.1.0",
-    "description": "NodeBB theme for FIT.",
+    "version": "0.0.1",
+    "description": "In development - NodeBB theme for FIT.",
     "main": "theme.less",
     "author": {
         "name": "Nazim Ali"
@@ -13,7 +13,10 @@
     "bugs": {
         "url": "https://github.com/NazimHAli/nodebb-theme-fit/issues"
     },    
-    "keywords": ["nodebb", "fit"],
+    "keywords": ["nodebb", "theme", "fit"],
+    "nbbpm": {
+        "compatibility": "^1.18.0"
+    },
     "license": "MIT",
     "husky": {
         "hooks": {
