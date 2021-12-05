@@ -1,0 +1,34 @@
+@primary: #7c3aed;
+
+.navbar {
+    height: 7rem;
+}
+
+#main-nav {
+
+    > li {
+        transition: all 0.3s ease-in-out;
+
+        :hover {
+            background-color: @primary;
+        
+            i {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.menu-section-list {
+
+    a:hover, button:hover {
+        background-color: @primary;
+    }
+}
+
+.navbar-default .navbar-nav > .active {
+    > a, a:focus {
+        background-color: @primary;
+        color: #fff;
+    }
+}
